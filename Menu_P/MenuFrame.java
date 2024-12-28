@@ -5,9 +5,8 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
-import java.util.List;
 
-class MenuFrame extends JFrame implements ActionListener {
+public class MenuFrame extends JFrame implements ActionListener {
     private JMenuBar mibarra;
     private JMenu acerca, archivo, editar, logo;
     private JMenuItem info_p, participantes, salir, guardar, guardarcomo, p_principal;
@@ -19,8 +18,6 @@ class MenuFrame extends JFrame implements ActionListener {
     private Panel_Equipo formularioPanel2;
     private PanelArbitro formularioPanel3;
     private PanelDirigente formularioPanel4;
-
-    private ArrayList<String> listaDirigentes = new ArrayList<>();
 
     public MenuFrame() {
         setTitle("Programa de Campeonato de Fútbol");
@@ -95,9 +92,6 @@ class MenuFrame extends JFrame implements ActionListener {
         consult_op4 = new JMenuItem("Dirigentes");
         consult_op4.addActionListener(this);
 
-        JMenuItem actualizar = new JMenuItem("Actualizar");
-        JMenuItem borrar = new JMenuItem("Borrar");
-
         // Construir menú
         mibarra.add(logo);
         mibarra.add(archivo);
@@ -120,9 +114,6 @@ class MenuFrame extends JFrame implements ActionListener {
         consulta.add(consult_op2);
         consulta.add(consult_op3);
         consulta.add(consult_op4);
-
-        editar.add(actualizar);
-        editar.add(borrar);
 
         acerca.add(info_p);
         acerca.add(participantes);
