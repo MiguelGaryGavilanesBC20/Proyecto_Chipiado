@@ -1,0 +1,4 @@
+Pedro Gavilanes,Vicepresidente,34,1351650187,$567.89,12 de Mayo del 2016	
+Andres Zambrano,Director Técnico (Entrenador),65,1231112111,$1215.34,21 Junio 2026	
+Roberto Cedeño,Vocal,76,123453211,$3456.68,8 de Septiembre del 2002
+Juan Fernando Cazares ,Presidente,45,23422223,$222.33,18 de Agosto del 2017
